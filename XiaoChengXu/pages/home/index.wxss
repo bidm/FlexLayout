@@ -1,0 +1,85 @@
+page {
+  background-color: #f1f1f1;
+}
+.container {
+  background-color: #f1f1f1;
+  height: 100%;
+  width: 100%;
+}
+.feedView {
+  background-color: white;
+  /* height: 360px; */
+  width: 96%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 1px ;
+  position: relative;
+}
+.feedIconView {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 2%;
+  background-color: royalblue;
+  position: absolute;
+}
+.feedContentView {
+  margin-left: 60px;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.feedViewText {
+  font-size: 15px;
+}  
+.imagesView {
+  background-color: wheat;
+  width: 100%;
+  /* height: 200px; */
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.imageView {
+   /* width: (100% - 30) / 3.0px; 
+   height: (100% - 30) / 3.0px;  */
+  width: 80px; 
+  height: 80px;
+  background-color: brown;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.feedMoreView {
+  height: 20px;
+  width: 100%;
+  color: white;
+  margin-top: 8px;
+  font-size: 12px;
+  /* background-color: lightgray; */
+  /* align-self: flex-end;  */
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+
+}
+.feedMoreView view {
+  color: black;
+  margin-left: 10px;
+  width: 40px;
+  height: 100%;
+  background-color: lightgray;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+

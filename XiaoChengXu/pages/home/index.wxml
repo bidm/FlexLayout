@@ -1,0 +1,39 @@
+<view class = "container">
+
+<block wx:for = "{{itemsArray}}">
+  <view class = "feedView">
+
+    <view class = "feedIconView">
+    </view>
+
+    <view class = "feedContentView">
+      <view class = "feedViewText">
+      这里是仿造的朋友圈。。。这里是仿造的朋友圈。。。这里是仿造的朋友圈。。。这里是仿造的朋友圈。。。这里是仿造的朋友圈。。。这里是仿造的朋友圈。。。这里是仿造的朋友圈。。。这里是仿造的朋友圈。。。
+    </view> 
+
+  <view class = "imagesView">
+    <block wx:for = "{{imagesArray}}">
+      <view class = "imageView">
+      </view>
+    </block>
+  </view>
+
+  <view class = "feedMoreView">
+  <view class = "feedZanView">
+    点赞
+  </view>
+  <view class = "feedCommentView">
+    评论
+  </view>
+  <view class = "feedShareView">
+    分享
+  </view>
+  
+  </view>
+
+  </view>
+  </view>
+
+</block>
+
+</view>

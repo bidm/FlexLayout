@@ -1,0 +1,48 @@
+.container {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+page {
+    background-color: #F2f2f2;
+  
+}
+/*                             小程序布局笔记
+  flex布局方式
+  flex-direction:     元素排布方向
+  flex-wrap:          是否换行
+  flex-flow:          上面两个的简写
+  justify-content:    center flex-start flex-end space-around均分 space-between均分两边对齐
+  align-items:        元素在交叉轴的对齐方式
+
+  flex-grow:          当有多余空间时  元素的放大比例
+  flex-shrink:        空间不足时候元素的缩小比例
+  flex-basis:         元素在主轴上的占据空间
+  flex                是上面三个的缩写
+  order:              元素的排列顺序
+  align-self:         元素自身的对齐方式
+
+  position: relative  相对定位  相对于自己之前的位置的定位
+  position:  absolute 绝对定位  相对于距离自己最近的已经定位的一个父级元素的位置
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

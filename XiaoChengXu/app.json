@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/home/index",
+    "pages/profile/index",
+    "pages/logs/logs",
+    "pages/detail/index",
+    "pages/layout/index",
+    "pages/audio/index",
+    "pages/video/index",
+    "pages/camera/index"
+    
+  ],
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "Home",
+      "iconPath": "images/tabbar1_nor@2x.png",
+      "selectedIconPath": "images/tabbar1_sel@2x.png"
+    },{
+      "pagePath": "pages/layout/index",
+      "text": "布局测试",
+      "iconPath": "images/tabbar4_nor@2x.png",
+      "selectedIconPath": "images/tabbar4_sel@2x.png"
+    },{
+      "pagePath": "pages/home/index",
+      "text": "朋友圈",
+      "iconPath": "images/tabbar2_nor@2x.png",
+      "selectedIconPath": "images/tabbar2_sel@2x.png"
+    },{
+      "pagePath": "pages/profile/index",
+      "text": "我的",
+      "iconPath": "images/tabbar4_nor@2x.png",
+      "selectedIconPath": "images/tabbar4_sel@2x.png"
+    }]
+  }, 
+  "debug" : true
+
+}

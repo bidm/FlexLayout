@@ -1,0 +1,62 @@
+<view class = "container">
+
+  <view class = "rowView">
+    <swiper class='swiper' duration='600' autoplay='true' indicator-dots='true' interval='2000' catchtap='swiperItemClick'>
+      <block wx:for = "{{imagesArray}}">
+        <swiper-item>
+          <image src='{{item}}' class='swiperImage'></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+
+  <view class = "rowView">
+    <view class = "header">
+      <text class = "recommend">精品推荐</text>
+      <text class = "seeAll">查看全部</text>
+    </view>
+
+    <view class = "content">
+      <view class = "contentItem" catchtap='contentItemClick' wx:for = "{{contentArray}}">
+        <image class = "contentItemImage" src = "http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg"></image>
+        <view class = "contentItemCover">
+          <text>这里是简介简介简介</text>
+        </view>
+
+      </view>
+    </view>
+
+  </view>
+
+
+
+  <view class = "rowView">
+    <view class = "header">
+      <text class = "recommend">热门评测</text>
+      <text class = "seeAll">查看全部</text>
+    </view>
+
+    <view class = "listItem" catchtap='listItemClick' wx:for = "{{listArray}}">
+      <view class = "listItemImage">
+        <image class = "listItemImageBG" src = "http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg">
+      </image>
+      <image class = "listItemImageIcon" src = "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg">
+      </image>
+      </view>
+
+
+      <view class = "listItemText">
+        <view class = "listItemTitle">
+        <text>哈哈 标题</text>
+      </view>
+      <view class = "listItemContent">
+        <text>哈哈哈哈😁哈哈哈哈哈😁哈哈哈哈哈😁哈哈哈哈哈😁哈哈哈哈哈😁哈哈哈哈哈😁哈哈哈哈哈😁哈哈哈哈哈😁哈哈哈哈哈😁哈</text>
+      </view>
+      </view>
+
+
+    </view>
+  </view>
+
+</view>

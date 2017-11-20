@@ -1,0 +1,4 @@
+<view class = "container">
+    <text class = "cencerTitle"> {{cencerTitle}}
+    </text>
+</view>
